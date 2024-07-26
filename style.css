@@ -1,0 +1,64 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    background-color: rgb(60, 64, 198);
+}
+
+nav {
+    background-color: rgb(60, 64, 198) !important;
+}
+
+nav a {
+    color: rgb(255, 255, 255) !important;
+}
+
+nav a:hover {
+    border-bottom: 2px solid rgb(255, 255, 255) !important;
+}
+
+.container-fluid>a {
+    font-size: 30px !important;
+    font-weight: bolder;
+}
+
+#right-sight>a {
+    font-size: 18px !important;
+    font-weight: bold !important;
+}
+
+#right-sight span {
+    background-color: red;
+    padding: 2px 5px;
+    border-radius: 10px;
+}
+
+/* navbar section complete */
+
+/* *********************** */
+
+/* second section started */
+
+.second-section {
+    width: 98%;
+    border: 1px solid black;
+}
+
+.second-section a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+/* @media Quarry section */
+
+@media only screen and (max-width: 752px) {
+    #right-sight {
+        display: none !important;
+        /* visibility: hidden; */
+    }
+}
