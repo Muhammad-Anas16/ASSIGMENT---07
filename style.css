@@ -43,7 +43,7 @@ nav a:hover {
 .second-section {
     width: 98%;
     height: 100vh;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -84,6 +84,10 @@ nav a:hover {
         width: 120vw;
         height: 250vh;
     }
+
+    #FLATE-UI-COLOUR{
+        font-size: 25px !important;
+    }
    
     .card-list{
         width: 100%;
@@ -97,10 +101,20 @@ nav a:hover {
     }
 }
 
+@media only screen and (max-width: 320px) {
+    #FLATE-UI-COLOUR{
+        font-size: 18px !important;
+    }
+}
+
 @media only screen and (max-width: 215px) {
     .second-section{
         width: 150vw;
         height: 250vh;
+    }
+
+    #FLATE-UI-COLOUR{
+        font-size: 13px !important;
     }
 
     .card-list{
