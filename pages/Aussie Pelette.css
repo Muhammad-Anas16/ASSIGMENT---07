@@ -185,3 +185,31 @@ form>select>option {
     height: 25vh;
     background-color: #535c68;
 }
+
+
+
+
+
+/* -****************************@ media Quarry********************************** */
+
+@media only screen and (max-width: 768px) {
+    #form{
+        display: none !important;
+    }
+
+    #sound{
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 198px) {
+    
+    
+    #form{
+        display: none !important;
+    }
+
+    #sound{
+        display: none !important;
+    }
+}

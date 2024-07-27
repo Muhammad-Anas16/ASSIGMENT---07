@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+.container-fluid {
+    display: flex;
+    align-items: center;
+}
+
+.container-fluid p {
+    display: flex !important;
+    align-items: center !important;
+}
+
+form>select {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+form>select>option {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid black !important;
+}
+
+/* second section */
+
+.main-container {
+    width: 98vw;
+    height: 90vh;
+    background-color: darkgray;
+}
+
+.main-box {
+    display: flex;
+}
+
+.main-box div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ********************************problem******************************************* */
+
+.main-box div button {
+    visibility: hidden;
+}
+
+.main-box div button:hover {
+    visibility: visible;
+}
+
+/* ********************************problem******************************************* */
+
+.div-1 {
+    width: 20vw;
+    height: 25vh;
+    background-color: #00a8ff
+}
+
+.div-2 {
+    width: 20vw;
+    height: 25vh;
+    background-color: #9c88ff;
+}
+
+.div-3 {
+    width: 20vw;
+    height: 25vh;
+    background-color: #fbc531;
+}
+
+.div-4 {
+    width: 20vw;
+    height: 25vh;
+    background-color: #4cd137;
+}
+
+.div-5 {
+    width: 20vw;
+    height: 25vh;
+    background-color: ;
+}
+
+/* div one compelete */
+
+.div-6 {
+    width: 20vw;
+    height: 25vh;
+    background-color: #0097e6;
+}
+
+.div-7 {
+    width: 20vw;
+    height: 25vh;
+    background-color: #8c7ae6;
+}
+
+.div-8 {
+    width: 20vw;
+    height: 25vh;
+    background-color: #e1b12c;
+}
+
+.div-9 {
+    width: 20vw;
+    height: 25vh;
+    background-color: #44bd32;
+}
+
+.div-10 {
+    width: 20vw;
+    height: 25vh;
+    background-color: ;
+}
+
+
+/* div two compelete */
+
+.div-11 {
+    width: 20vw;
+    height: 25vh;
+    background-color: #e84118;
+}
+
+.div-12 {
+    width: 20vw;
+    height: 25vh;
+    background-color: #f5f6fa;
+}
+
+.div-13 {
+    width: 20vw;
+    height: 25vh;
+    background-color: #7f8fa6;
+}
+
+.div-14 {
+    width: 20vw;
+    height: 25vh;
+    background-color: #273c75;
+}
+
+.div-15 {
+    width: 20vw;
+    height: 25vh;
+    background-color: ;
+}
+
+
+/* div three compelete */
+
+.div-16 {
+    width: 20vw;
+    height: 25vh;
+    background-color: #c23616;
+}
+
+.div-17 {
+    width: 20vw;
+    height: 25vh;
+    background-color: #dcdde1;
+}
+
+.div-18 {
+    width: 20vw;
+    height: 25vh;
+    background-color: #718093;
+}
+
+.div-19 {
+    width: 20vw;
+    height: 25vh;
+    background-color: #192a56;
+}
+
+.div-20 {
+    width: 20vw;
+    height: 25vh;
+    background-color: #2f3640;
+}
+
+
+
+
+
+/* -****************************@ media Quarry********************************** */
+
+@media only screen and (max-width: 768px) {
+    #form{
+        display: none !important;
+    }
+
+    #sound{
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 198px) {
+    
+    
+    #form{
+        display: none !important;
+    }
+
+    #sound{
+        display: none !important;
+    }
+}
